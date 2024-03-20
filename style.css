@@ -1,0 +1,132 @@
+*{
+    font-family: 'Inconsolata';
+    background-color: #E9ECF8;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 40px;    
+}
+
+.logo{
+    padding-top: 12px;
+    margin-left: 10px;
+    width: 8%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 40px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #0A3871} 
+    .text-area :focus{
+     outline: none;
+    }
+
+.informacion{
+        color: #0A3871;
+        font-size: 15px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 320px;
+}
+
+.btn-desencriptar{
+    background-color: #E9ECF8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 320px;
+}
+
+.mensaje{
+    background: white;
+    background-image: url(IMAGENES/Muñeco.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 40% 55%;
+    border: none;
+    border-radius: 10px;
+    color: #0A3871;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-left: 20px;
+        
+}
+
+::placeholder{
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    padding-top: 370px;
+}
+
+.mensaje :focus{
+    outline: none;
+}
+
+.mensaje-boton{
+    position: relative;
+}
+
+.copia{
+    display: none;
+    position: absolute;
+    top: 430px;
+    right: 15px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 280px;
+    display: inline-block;
+
+}
+
+.reiniciar{
+    position: absolute;
+    top: 430px;
+    right: 15px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 280px;
+    display: inline-block;
+}
+
+
+
+

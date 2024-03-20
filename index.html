@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ENCRIPTADOR</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body onload="ocultarBntCopiar(); ocultarBntReiniciar()">
+        <header>
+            <img class="logo" src="IMAGENES/Logo.png" alt="logo de alura">                
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area" onclick="clickInicio()" cols="80" rows="8.5">Ingresa el texto aqui</textarea>
+                <div alig="left">
+                    <img src="IMAGENES/bi_exclamation-circle-fill.png">
+                    <hi class="informacion">Solo letras minusculas, sin acentos y sin simbolos</hi>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="mostrarBtnCopiar(); btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar(); monstrarBtnReiniciar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section>
+                <div class="mensaje-boton">
+                    <textarea class="mensaje" cols="35" rows="13" placeholder="Ningun mensaje fue encontrado&#10;Ingresa el texto que deses&#10; encriptar o desencriptar"></textarea>
+                    <button class="copia" id="botonCopiar" onclick="btnCopiar()">Copiar</button>
+                    <button class="reiniciar" id="botonReiniciar" onclick="btnReiniciar()">Listo!</button>
+                </div>     
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
